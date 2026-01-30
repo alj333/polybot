@@ -15,6 +15,7 @@ PolyBot is a multi-agent trading system that operates like a real trading floor:
 ✅ **Persistent**: Survives crashes, API outages, and network issues
 ✅ **Self-Healing**: Auto-restarts failed agents, recovers from checkpoints
 ✅ **Self-Optimizing**: Removes underperforming strategies, clones successful ones
+✅ **Paper Trading**: Test strategies risk-free with simulated money before going live
 ✅ **Observable**: Comprehensive logging, metrics, and health monitoring
 ✅ **Auditable**: All trades logged to database with complete audit trail
 
@@ -46,7 +47,9 @@ Start here based on your needs:
 | [TRADING_FLOOR_PLAN.md](./TRADING_FLOOR_PLAN.md) | Complete architecture & design | Understanding the system |
 | [BUILD_INSTRUCTIONS.md](./BUILD_INSTRUCTIONS.md) | Step-by-step implementation guide | Building the system |
 | [PERSISTENCE_SOLUTION.md](./PERSISTENCE_SOLUTION.md) | How persistence works | Debugging reliability issues |
-| README.md (this file) | Quick start & overview | Getting started |
+| [PAPER_TRADING.md](./PAPER_TRADING.md) | Risk-free strategy testing system | Testing before going live |
+| [QUICK_START.md](./QUICK_START.md) | Fast-track setup guide | Getting started quickly |
+| README.md (this file) | Project overview & reference | Everyone |
 
 ## 🚀 Quick Start
 
