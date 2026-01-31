@@ -46,6 +46,7 @@ Start here based on your needs:
 | Document | Purpose | Audience |
 |----------|---------|----------|
 | [TRADING_FLOOR_PLAN.md](./TRADING_FLOOR_PLAN.md) | Complete architecture & design | Understanding the system |
+| [STRATEGY_UPDATE_POLYMARKET.md](./STRATEGY_UPDATE_POLYMARKET.md) | **5 proven strategies ($40M+ profits)** | **Implementation priority** |
 | [BUILD_INSTRUCTIONS.md](./BUILD_INSTRUCTIONS.md) | Step-by-step implementation guide | Building the system |
 | [PERSISTENCE_SOLUTION.md](./PERSISTENCE_SOLUTION.md) | How persistence works | Debugging reliability issues |
 | [PAPER_TRADING.md](./PAPER_TRADING.md) | Risk-free strategy testing system | Testing before going live |
@@ -177,22 +178,40 @@ The system is built in 4 phases:
 
 **Success**: 7 days autonomous operation, auto-remove 1 bad agent, auto-deploy 1 variation
 
-## 🎯 Initial Focus
+## 🎯 Trading Strategies (5 Proven Approaches)
 
-**Markets**: BTC/ETH 15-minute binary options on Polymarket
+**Updated Strategy Plan**: Based on analysis of bots that generated **$40M+ in documented profits**
 
-**Starting Strategies**:
-1. **Momentum Trader**: Buy in direction of recent price movement
-2. **Mean Reversion Trader**: Bet on price returning to average
-3. **Volume Spike Trader**: Follow unusual volume patterns
+### 1. **Arbitrage Agent** (Risk-Free)
+- Exploit pricing inefficiencies when YES + NO ≠ $1.00
+- Documented: $40M total market profits
+- Win rate: 95%+
 
-**Capital Allocation**: $1000 total, $20-30 per trade
+### 2. **Sentinel Agent** (AI News Sentiment)
+- Claude AI analyzes news/social sentiment → estimates probabilities
+- Documented: $2.2M in 2 months
+- Win rate: 60-85%
 
-**Performance Targets** (Month 1):
-- Win rate: >52%
-- Sharpe ratio: >0.3
-- Max drawdown: <15%
-- Uptime: >99%
+### 3. **Shadow Agent** (Whale Copy Trading)
+- Track top traders, copy when consensus emerges
+- Documented: $10K+/month
+- Win rate: 65-85%
+
+### 4. **Velocity Agent** (Latency Arbitrage)
+- Exploit delay between spot prices and Polymarket on crypto markets
+- Documented: $313 → $438K in one month
+- Win rate: 75-98%
+
+### 5. **Liquidity Agent** (Market Making)
+- Provide liquidity, capture spread + platform rewards
+- Documented: $200-800/day
+- Daily return: 2-8% of allocated capital
+
+**See [STRATEGY_UPDATE_POLYMARKET.md](./STRATEGY_UPDATE_POLYMARKET.md) for full implementation details**
+
+**Capital Allocation**: $5,000-10,000 recommended
+**Performance Targets** (Month 1): $300/day (~$9K/month)
+**Performance Targets** (Month 3+): $750/day (~$22K/month)
 
 ## 🔧 Development
 
